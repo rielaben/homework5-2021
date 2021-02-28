@@ -66,6 +66,7 @@ nav a:hover {
 }
 
 /*Req 3a*/
+/* errors:check at OH */
 .skip a{
   background: white;
   left: 0;
@@ -76,15 +77,19 @@ nav a:hover {
 
   /* check */
   position: relative;
-  bottom: 50px;
+  /* top: 50px; */
+  /* bottom: 50px; */
+  top: -50px;
   /*Your code here*/
 }
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
 
 /* what does it mean to say skip is in focus? Should top and bottom be switched? */
+/* error: check at OH */
 .skip a:focus {
   top: 10px;
+  /* bottom: 10px; */
 }
 
 /*Req 4*/
@@ -165,14 +170,17 @@ header{
 }
 
 /*Req 9*/
+/* errors - check at OH */
 .text{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
   /* vertical-align getting overwritten */
-  vertical-align: middle;
+  /* vertical-align: middle; */
   text-align: center;
+  /* align-items: center; */
+  align-self: center;
 
 }
 
